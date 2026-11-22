@@ -1,0 +1,240 @@
+/*Premier page intitulée : Page de garde*/
+
+.Body1{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    background: no-repeat;
+    background-image : url(images/fond_principal.jpg);
+    background-size: cover; 
+    backdrop-filter: blur(2px)
+}
+.dfs {
+    background-color: white;
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1rem solid;
+    border-top-color: black;  
+}
+.Main1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.evo1{
+    color: white;
+    font-family: Berkshire Swash, cursive;
+    font-size: 134px;
+}
+.evo1{
+  animation: bounce 2s infinite;
+}@keyframes bounce{
+    100% {transform: translateY(0);}
+  100% {transform: translateY(-30px);}
+}
+.evo2{
+    color: white;
+    font-family: Berkshire Swash, cursive;
+    font-size: 37px;
+    padding: 30px;
+}
+.evo3{
+    
+    color: white;
+    background-color: #3A6CE1;
+    font-family: Berkshire Swash, cursive;
+    font-size: 30px;
+    font-style: bold;
+    padding: 20px;
+    border-radius: corner 75%;
+    border-radius: 2em;
+    
+}
+.evo3:hover {
+  transform: scale(1.15);
+}
+
+/*Deuxieme page intitulée: Bienvenue */
+
+.Body2{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    background: no-repeat;
+    background-image : url(images/fond_principal_2.jpg);
+    background-size: cover; 
+    gap : 50px;
+}
+.Header2 {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    border-top: 1rem solid;
+    border-top-color: black;
+}
+#Header2A:hover {
+  transform: scale(1.15);
+}
+.Main2{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    padding: 30px;
+    background-image: url(images/fond_accueil.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    justify-self: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: corner 75%;
+    border-radius: 2em; 
+}
+#Main2A{
+    color: white;
+    background-color: #3A6CE1;
+    font-family: Berkshire Swash, cursive;
+    font-size: 32px;
+    font-style: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: corner 75%;
+    border-radius: 2em; 
+}
+#Main2A:hover {
+  transform: scale(1.15);
+}
+
+/*Troisieme page : Menu général*/
+.Body3{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    background: no-repeat;
+    background-image : url(images/fond_principal_2.jpg);
+    background-size: cover; 
+    gap : 50px;
+}
+.Header3 {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    border-top: 1rem solid;
+    border-top-color: black;
+}
+
+
+
+.Main3{
+    display: grid;
+    background-color : #D1E18A;
+    background-size: cover;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 1200px;
+    margin: 20px;
+    justify-self: center;
+    justify-items: center;
+
+}
+
+#Main3X{
+    grid-row: span 2;
+}
+
+#Main3A{
+    background-image: url(images/img_algues.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    justify-self: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: corner 75%;
+    border-radius: 2em; 
+}
+#Main3B{
+    background-image: url(images/img_mousse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    justify-self: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: corner 75%;
+    border-radius: 2em; 
+}
+#Main3C{
+    background-image: url(images/img_fougeres.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    justify-self: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: corner 75%;
+    border-radius: 2em; 
+}
+#Main3D{
+    background-image: url(images/img_conifere.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    justify-self: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: corner 75%;
+    border-radius: 2em; 
+}
+#Main3E{
+    background-image: url(images/icon_graminées.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    justify-self: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: corner 75%;
+    border-radius: 2em; 
+}
+#Main3F{
+    background-image: url(images/img_dicotyledone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    justify-self: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: corner 75%;
+    border-radius: 2²em; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
