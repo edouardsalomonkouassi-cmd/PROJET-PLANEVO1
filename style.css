@@ -219,9 +219,102 @@
 
 
 
+/*Quatrieme page*/
 
+.Body4{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    background: no-repeat;
+    background-image : url(images/fond_principal_2.jpg);
+    background-size: cover; 
+    gap : 50px;}
 
+.Header4 {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    border-top: 1rem solid;
+    border-top-color: black;
+}
 
+.Body5{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    background: no-repeat;
+    background-image : url(images/fond_principal_2.jpg);
+    background-size: cover; 
+    gap : 50px;}
+
+.Header5 {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    border-top: 1rem solid;
+    border-top-color: black;
+}
+
+.Body6{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    background: no-repeat;
+    background-image : url(images/fond_principal_2.jpg);
+    background-size: cover; 
+    gap : 50px;}
+
+.Header6 {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    border-top: 1rem solid;
+    border-top-color: black;
+}
+
+.Body7{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    background: no-repeat;
+    background-image : url(images/fond_principal_2.jpg);
+    background-size: cover; 
+    gap : 50px;}
+
+.Header7 {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    border-top: 1rem solid;
+    border-top-color: black;
+}
+
+.Body8{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    background: no-repeat;
+    background-image : url(images/fond_principal_2.jpg);
+    background-size: cover; 
+    gap : 50px;}
+
+.Header8 {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    border-top: 1rem solid;
+    border-top-color: black;
+}
 
 
 
